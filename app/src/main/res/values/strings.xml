@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">ListaCompra</string>
+
+    <!-- Entrada de producto -->
+    <string name="product_hint">Product name</string>
+    <string name="add_button">Add</string>
+
+    <!-- Lista vacía -->
+    <string name="empty_list_message">Your shopping list is empty</string>
+
+    <!-- Descripciones de iconos (accesibilidad) -->
+    <string name="icon_bought_description">Bought</string>
+    <string name="icon_pending_description">Not bought yet</string>
+    <string name="icon_delete_description">Delete product</string>
+
+    <!-- Contador de pendientes -->
+    <plurals name="pending_products_count">
+        <item quantity="one">%d pending product</item>
+        <item quantity="other">%d pending products</item>
+    </plurals>
 </resources>
