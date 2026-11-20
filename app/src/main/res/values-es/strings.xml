@@ -6,5 +6,9 @@
     <string name="empty_list_message">Tu lista de compra está vacía</string>
     <string name="icon_bought_description">Comprado</string>
     <string name="icon_pending_description">No comprado aún</string>
-    <string name="icon_delete_description">Eliminar productot</string>
+    <string name="icon_delete_description">Eliminar producto</string>
+    <plurals name="pending_products_count">
+        <item quantity="one">%d producto pendiente</item>
+        <item quantity="other">%d productos pendientes</item>
+    </plurals>
 </resources>
